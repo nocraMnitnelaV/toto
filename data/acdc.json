@@ -1,9 +1,9 @@
 {
- "name": "abiview",
- "description": "desc",
- "homepage": "http://emboss.open-bio.org/rel/rel6/apps/abiview.html",
- "biotoolsID": "abiview",
- "biotoolsCURIE": "biotools:abiview",
+ "name": "acdc",
+ "description": "Test an application ACD file.",
+ "homepage": "http://emboss.open-bio.org/rel/rel6/apps/acdc.html",
+ "biotoolsID": "acdc",
+ "biotoolsCURIE": "biotools:acdc",
  "version": [
   "r6"
  ],
@@ -12,39 +12,12 @@
   {
    "operation": [
     {
-     "uri": "http://edamontology.org/operation_0337",
-     "term": "Visualisation"
-    },
-    {
-     "uri": "http://edamontology.org/operation_0564",
-     "term": "Sequence visualisation"
+     "uri": "http://edamontology.org/operation_0336",
+     "term": "Format validation"
     }
    ],
-   "input": [
-    {
-     "data": {
-      "uri": "http://edamontology.org/data_0924",
-      "term": "Sequence trace"
-     },
-     "format": []
-    }
-   ],
-   "output": [
-    {
-     "data": {
-      "uri": "http://edamontology.org/data_2887",
-      "term": "Nucleic acid sequence record"
-     },
-     "format": []
-    },
-    {
-     "data": {
-      "uri": "http://edamontology.org/data_2168",
-      "term": "Sequence trace image"
-     },
-     "format": []
-    }
-   ],
+   "input": [],
+   "output": [],
    "note": null,
    "cmd": null
   }
@@ -54,8 +27,8 @@
  ],
  "topic": [
   {
-   "uri": "http://edamontology.org/topic_0092",
-   "term": "Data visualisation"
+   "uri": "http://edamontology.org/topic_3071",
+   "term": "Data management"
   }
  ],
  "operatingSystem": [
@@ -108,7 +81,7 @@
    "note": null
   },
   {
-   "url": "http://emboss.open-bio.org/rel/rel6/apps/abiview.html",
+   "url": "http://emboss.open-bio.org/rel/rel6/apps/acdc.html",
    "type": "General",
    "note": null
   }
@@ -258,8 +231,8 @@
   }
  ],
  "owner": "EMBOSS",
- "additionDate": "2015-11-08T14:40:29Z",
- "lastUpdate": "2018-12-10T12:58:52Z",
+ "additionDate": "2015-11-08T14:40:02Z",
+ "lastUpdate": "2018-12-10T12:58:51Z",
  "editPermission": {
   "type": "private",
   "authors": []
